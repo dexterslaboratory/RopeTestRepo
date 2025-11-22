@@ -18,12 +18,12 @@ object Code {
     else go(n, 0, 1, List.empty)
   }
 
-  def fibonacciImperative(n: Int): List[Int] = {
+  def fibonacci1(n: Int): List[Int] = {
     if (n <= 0) return List.empty
     
     var result = new scala.collection.mutable.ListBuffer[Int]()
     var a = 0
-    var b = 1
+    var b = 2
     var i = 0
     
     while (i < n) {

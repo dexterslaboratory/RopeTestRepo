@@ -1,0 +1,11 @@
+review:
+  aggressiveness: "Medium"
+  rules:
+    - "Prefer functional style"
+    - "Avoid mutable state"
+    - "Use meaningful variable names"
+  events:
+    - "pull_request.opened"
+    - "pull_request.synchronize"
+  exclude:
+    - "*.md"

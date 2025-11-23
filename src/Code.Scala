@@ -23,7 +23,7 @@ object Code {
     
     var result = new scala.collection.mutable.ListBuffer[Int]()
     var a = 0
-    var b = 2
+    var b = 1
     var i = 0
     
     while (i < n) {
